@@ -12,6 +12,7 @@ const Reviewer = ({reviewer}) => {
             <p>Comment:{comment}</p>
             <p>Ratings:{rating}</p>
             </div>
+            
         </div>
     );
 };
