@@ -31,3 +31,10 @@ span{
     height: 740px;
     width: 750px;
 }
+.btn{
+    border: none;
+    padding: 20px 30px;
+    background-color: orange;
+    border-radius: 5px;
+    font-weight: 600;
+}
