@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import watch from "../Assets/Image/watch.jpg";
 import useReviewers from '../hooks/useReviewers';
 import Reviewer from '../Reviewer/Reviewer';
@@ -6,6 +7,7 @@ import './Home.css'
 
 const Home = () => {
     const [reviewers, setReviewers] = useReviewers();
+    const navigate =useNavigate()
     return (
         <div>
             <h1 className='heading'>Smart Watch Shop</h1>
@@ -34,7 +36,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='text'>
-            <button className='btn-style'>See All Reviews</button>
+            <button onClick={() =>navigate('/reviews')} className='btn-style'>See All Reviews</button>
             </div>
            
         </div>

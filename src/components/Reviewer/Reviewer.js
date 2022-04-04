@@ -2,7 +2,7 @@ import React from 'react';
 import './Reviewer.css'
 
 const Reviewer = ({reviewer}) => {
-    const {img,name,rating,comment}=reviewer
+    const {img,name,rating,comment}=reviewer;
     
     return (
         <div className='review-details'>
