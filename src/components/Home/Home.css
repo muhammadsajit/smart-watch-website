@@ -12,6 +12,9 @@
     
    
 }
+.text--style{
+    text-align: center;
+}
 .text-style{
     padding: 60px;
 }
@@ -37,4 +40,11 @@ span{
     background-color: orange;
     border-radius: 5px;
     font-weight: 600;
+}
+.review-container{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ grid-column-gap:70px;
+    
 }
