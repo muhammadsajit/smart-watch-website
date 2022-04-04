@@ -5,7 +5,7 @@ import Reviewer from '../Reviewer/Reviewer';
 import './Home.css'
 
 const Home = () => {
-    const [reviewers, setReviewers] = useReviewers()
+    const [reviewers, setReviewers] = useReviewers();
     return (
         <div>
             <h1 className='heading'>Smart Watch Shop</h1>
