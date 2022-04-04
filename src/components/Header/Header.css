@@ -1,0 +1,19 @@
+nav{
+    background-color: aqua;
+    padding: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    
+    
+}
+nav a:hover{
+    color: orange;
+    background-color: indigo;
+    text-decoration: underline;
+}
