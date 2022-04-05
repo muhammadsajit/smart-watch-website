@@ -10,7 +10,7 @@ const Blogs = () => {
            </div>
            <div>
                <h1 className='title'>2.What is Semantic Tag?</h1>
-               <h2 className='title'></h2>
+               <h2 className='title'>Semantic tags provide information about the contents of those tags that goes beyond just how they look on a page.This tag makes the HTML more comprehensible by better defining the different sections and layout of web pages. These tags are easier for both people and machines to read and understand it.  It makes web pages more informative and adaptable, allowing browsers and search engines to better interpret content.Examples of semantic HTML tags includes nav,footer,section tags etc.  </h2>
            </div>
         </div>
     );
